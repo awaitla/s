@@ -1,1 +1,1 @@
-ls
+ sudo systemctl restart sshd
