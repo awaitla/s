@@ -1,1 +1,1 @@
-sudo sed -i 's/#Port 22/Port 222/' /etc/ssh/sshd_config && sudo systemctl restart sshd && sudo firewall-cmd --permanent --add-port=222/tcp && sudo firewall-cmd --reload
+reboot
